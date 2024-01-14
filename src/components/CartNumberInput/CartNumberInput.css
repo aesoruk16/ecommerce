@@ -1,0 +1,30 @@
+.numberInput{
+    display: flex;
+}
+.cartNumberInput{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background:var(--primary-color);
+    border: 1px solid #e2e2e2;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 4px;
+    color: white;
+
+}
+.cartBtn{
+    background-color: #F9F9F9;
+    width: 30px;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    margin-right: 2px;
+    margin-left: 2px;
+    color: #808080;
+    height: 30px;
+
+
+}
+.CartChild{
+    display: flex;
+}

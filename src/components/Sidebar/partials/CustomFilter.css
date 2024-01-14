@@ -1,0 +1,47 @@
+.filterCard {
+  margin: 20px;
+  /* margin-left: 25px; */
+  /* margin-right: 25px; */
+  margin-left: 0;
+  margin-right: 0;
+}
+.filterCardChild {
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0px 2px 3.84px rgba(0, 0, 0, 0.25);
+}
+.title {
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.filterItem {
+  margin-bottom: 10px;
+}
+.filterItemText {
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 13px!important;
+  font-weight: 600;
+  color: #333333;
+  margin-left: 15px;
+}
+.select {
+  color: var(--primary-color);
+}
+.filterItem > input[type="radio"] {
+  position: relative;
+  cursor: pointer;
+
+  width: 17px;
+  height: 17px;
+  top: 2px;
+  background-color: #fff;
+  border: 2px solid #3498db; 
+  border-radius: 50%;
+}
+.listFilter{
+  overflow-y: scroll; 
+  height: 200px; 
+
+}

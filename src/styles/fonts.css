@@ -1,0 +1,22 @@
+  
+  
+  @font-face {
+    font-family: 'Montserrat-800';
+    font-style: normal;
+    font-weight: 800; 
+    src: url('../assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-100';
+    font-style: normal;
+    src: url('../assets/fonts/Montserrat-Medium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Montserrat-Light';
+    font-style: normal;
+    font-weight: 900; /* Black */
+    src: url('../assets/fonts/Montserrat-Light.ttf') format('truetype');
+  }
+  
+ 

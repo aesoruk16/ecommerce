@@ -1,0 +1,101 @@
+.productArea {
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0px 2px 3.84px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+}
+.productAreaChild {
+  padding-bottom: 15px;
+  padding-top: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.price {
+  color: var(--primary-color);
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.productName {
+  font-family: "Montserrat-100", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.productImage {
+  height: 160px;
+  border-radius: 4px;
+}
+.addCartBtn {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  height: 36px;
+  padding: 8px, 16px, 8px, 16px;
+  width: 100%;
+  align-self: flex-end;
+  border: none;
+}
+.moreBtn{
+  background-color: #e2e2e2;
+  border-radius: 4px;
+  height: 36px;
+  padding: 8px, 16px, 8px, 16px;
+  width: 50px;
+  margin-left: 10px;
+  align-self: flex-end;
+  border: none;
+}
+.moreBtn span {
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #808080;
+  line-height: 20px;
+  width: 100%;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.addCartBtn span {
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  line-height: 20px;
+  width: 100%;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.ImageContainer {
+    position: relative;
+  }
+   
+  .dateOverlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    font-size: 11px;
+    font-weight: 300;
+    border-top-left-radius: 5px;
+  }

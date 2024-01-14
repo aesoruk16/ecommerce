@@ -1,0 +1,24 @@
+.searchBox{
+    border-radius: 1px;
+    font-family: 'Montserrat-100', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 2.5em;
+    height: 40px;
+
+
+
+}
+.searchBox ::placeholder {
+     
+   margin-left: 10px;
+  }
+.searchIcon{  
+    width: 16.5px;
+    height: 17.5px;
+    position: absolute;
+    left: 3%;
+    z-index: 1;
+}

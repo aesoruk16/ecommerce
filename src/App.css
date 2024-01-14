@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background-color: #f9f9f9;
+  height: 100%;
 }
 
 .App-logo {
@@ -36,3 +37,75 @@
     transform: rotate(360deg);
   }
 }
+
+.detail {
+  background-color: white;
+  box-shadow: 0px 2px 3.84px rgba(0, 0, 0, 0.25);
+  padding: 15px;
+  border-radius:5px ;
+}
+
+.ProductDetailName span{
+  font-family: "Montserrat-100", sans-serif;
+  font-size: 25px;
+
+}
+.ProductDetailPrice span{
+  font-family: "Montserrat-800", sans-serif;
+  color: var(--primary-color);
+  font-size: 20px;
+}
+.DetailAddCartBtn span{
+  font-family: "Montserrat-800", sans-serif!important;
+
+}
+.productDescription p {
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 14px;
+
+}
+.detailArea{
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: flex-start;
+ }
+ .ProductDetailItem span{
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 14px;
+ }
+ .productDetailImage{
+  border-radius: 8px;
+  box-shadow: 0px 2px 3.84px rgba(0, 0, 0, 0.25);
+
+ }
+ .deliveryTitle{
+  font-family: "Montserrat-800", sans-serif;
+  color: var(--primary-color);;
+ }
+ .deliveryTitleDesc{
+  font-family: "Montserrat-Light", sans-serif;
+  color:#808080;
+  font-size: 15px;
+ }
+ .delivery{
+  border: 1px solid #e2e2e2;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 3.84px rgba(0, 0, 0, 0.05);
+
+ }
+ .cartIcon{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+ }
+ .cartHeader{
+  font-family: "Montserrat-Light", sans-serif;
+color: white;
+ }
+ .cartContainer{
+  margin-right: 10px;
+ }

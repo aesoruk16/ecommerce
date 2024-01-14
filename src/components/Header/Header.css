@@ -1,0 +1,14 @@
+ 
+
+ .header-container {
+    background:var(--primary-color);
+    height: 50px;
+    box-shadow: 0px 2px 3.84px rgba(0, 0, 0, 0.25);
+    /* text-align:center; */
+  }
+  .logo {
+    font-family: 'Montserrat-800', sans-serif;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 24px;
+}
